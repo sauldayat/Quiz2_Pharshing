@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    Nama	: Syayful Hidayat-->
+<!--    NIM	    : 10120912-->
+<!--    Kelas	: AKB-UL 1-->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <TextView-->
+<!--        android:id="@+id/tvArea"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textSize="27sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="WORLD"/>-->
+
+        <TextView
+            android:id="@+id/areaName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/areaCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/areaName"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/countr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/areaCode"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/parentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/countr"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/Parentt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/parentId"
+            android:layout_marginTop="8dp"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvArea"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:textSize="27sp"-->
+
+<!--            android:textStyle="bold"-->
+<!--            android:text="WORLD"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvArea"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvid"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvName"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvAfrica"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Africa"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvid"-->
+<!--            android:layout_marginTop="25dp"-->
+
+<!--            android:textSize="20sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvAfrica2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvAfrica"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivImage"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvArmeans"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Armeans Suryoye"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvAfrica2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvArmeans2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvArmeans"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvAsia"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Asia"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvArmeans2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvAsia2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvAsia"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvDarfur"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Work"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvAsia2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvDarfur2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvDarfur"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvEurope"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Europe"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvDarfur2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvEurope2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvEurope"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvAmerica"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="America"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvEurope2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvAmerica2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvAmerica"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBoard"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="NF Board"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvAmerica2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvBoard2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvBoard"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvOccitania"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Occitania"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvBoard2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvOccitania2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvOccitania"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvOceania"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Oceania"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvOccitania2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvOceania2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvOceania"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvPadania"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Padania"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvOceania2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvPadania2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvPadania"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvProvence"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Provence"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvPadania2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvProvence2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvProvence"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvRaestia"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Raestia"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvProvence2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvRaestia2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvRaestia"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvSapmi"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Sapmi"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvRaestia2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvSapmi2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvSapmi"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvSouthAmerica"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="South America"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvSapmi2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvSouthAmerica2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvSouthAmerica"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvSouthern"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Southern Cameroon"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvSouthAmerica2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvSouthern2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvSouthern"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvTamil"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tamil Eelam"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvSouthern2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvTamil2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvTamil"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvTwoS"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Two Sicilies"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvTamil2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvTwoS2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvTwoS"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvWestI"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="West Indies"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_below="@id/tvTwoS2"-->
+<!--            android:layout_marginTop="25dp"-->
+<!---->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvWestI2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvWestI"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:textSize="16sp" />-->
+
+    </RelativeLayout>
+</ScrollView>
